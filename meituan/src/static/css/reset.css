@@ -12,6 +12,10 @@ table,th,td /* table elements 表格元素 */{
 	margin:0;
 	padding:0;
 }
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
 body,
 button, input, select, textarea /* for ie */ {
     font: 12px/24px Arial, 'Microsoft Yahei',"宋体", sans-serif;
@@ -35,7 +39,9 @@ button, input, select, textarea { font-size: 100%; line-height:normal; } /* 使�
 /** 重置表格元素 **/
 table{ border-collapse: collapse; border-spacing: 0; }
 input[type="button"],input[type="submit"],input[type="reset"]{cursor:pointer;}
-
+input{
+    outline: 0;
+}
 /* ie6 7 8(q) bug  */
 iframe{
 	display:block;
@@ -48,6 +54,9 @@ iframe{
 }
 .dn{
 	display:none;
+}
+.dbk{
+    display: block;
 }
 .btn{
 	display: inline-block;
@@ -78,4 +87,13 @@ iframe{
 	content:" ";
 	clear:both;
 	height:0;
+}
+.gray{
+    color: rgb(128, 128, 128);
+}
+.orange{
+    color: #f76120;
+}
+strong,b{
+    font-weight: 700;
 }
