@@ -21,11 +21,13 @@ $(function(){
     	$('#tab1').css('display','block');
     });
     $('#linkxq').click(function(){
+
     	$('#con').hide();
     	$('#con').siblings('.money').hide();
     	$('#hide').show();
     	$('#linkhide').show();
     	$(this).hide();
+        $('#container').css('border-top','none');
     });
     $('#linkhide').click(function(){
     	$('#hide').hide();
@@ -33,6 +35,7 @@ $(function(){
     	$('#con').show();
     	$('#con').siblings('.money').show();
     	$('#linkxq').show();
+        $('#container').css('border-top','3px solid #b3b3b3');
     });
     $('#sao1').click(function(){
     	$(this).hide();
@@ -41,6 +44,12 @@ $(function(){
     $('#sao2').click(function(){
     	$(this).hide();
     	$(this).siblings().show();
+    });
+    $('#tip').mouseover(function(){
+        $('#dialog').css('display','block');
+    });
+    $('#tip').mouseout(function(){
+        $('#dialog').css('display','none');
     });
 })
 

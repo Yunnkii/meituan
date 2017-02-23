@@ -75,6 +75,10 @@ body{
 	color: #000;
 	/*border-bottom: 3px solid #b3b3b3;*/
 }
+.g-main .m-body .u-order .detail .remind .tip{
+	cursor: pointer;
+    color: #08c
+}
 .g-main .m-body .u-order  .con{
 	padding-top: 14px;
 	overflow: hidden;
@@ -102,6 +106,27 @@ body{
     line-height: 22px;
 	color: #f60;
 }
+.g-main .m-body .u-order  .dialog{
+	display: none;
+	width: 360px;
+	margin: 2px;
+	position: absolute;
+	top: 1px;
+	left: 169px;
+	border: solid 1px #B3B3B3;
+	background: #fff;
+}
+
+.g-main .m-body .u-order  .dialog .tit{
+
+	padding: 10px 12px 0;
+	font-weight: 700;
+    color: #4D4D4D;
+}
+.g-main .m-body .u-order  .dialog .text{
+	padding: 5px 12px 10px; 
+
+}
 .g-main .m-body .u-order .hide{
 	padding: 16px 23px;
 	color: #000;
@@ -109,16 +134,17 @@ body{
 	display: none;
 }
 .g-main .m-body .u-order .hide dl{
-
+	
 }
 .g-main .m-body .u-order .hide dl dt{
 	float: left;
 	padding: 0px 0px 0px 0px;
 	margin: 0px 0px 0px 0px;
+	
 }
 .g-main .m-body .u-order .hide dl dd{
-
 	text-align: left;
+    border: 1px solid #eff0f1;
 	padding: 0px 0px 0px 0px;
 }
 .g-main .m-body .u-order .linkxq{
@@ -135,8 +161,11 @@ body{
     z-index: 100;
     color: #fff;
 }
+.g-main .m-body .u-order .linkxq:hover{
+	text-decoration: underline;
+}
 .g-main .m-body .u-order .linkhide{
-	top: 162px;
+	top: 167px;
 	display: none;
 }
 .g-main .m-body .u-container{
