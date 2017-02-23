@@ -19,7 +19,7 @@
 					proIndex ++;
 				}			
 				slide(proIndex);
-			},2666);
+			},2800);
 			previousbtn.onclick = function(){
 				if(proIndex<=0){
 					proIndex = countLi-1;
@@ -36,11 +36,11 @@
 				}
 				slide(proIndex);
 			}
-			promotion.onmouseenter = function () {
+			promotion.onmouseover = function () {
 			if (protimer) 
 				clearInterval(protimer);
 			}
-		   promotion.onmouseleave = function () {
+		   promotion.onmousout = function () {
 				protimer = setInterval(function () {
 				if (proIndex >= countLi - 1){
 					proIndex = 0;

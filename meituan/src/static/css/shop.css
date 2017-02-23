@@ -617,6 +617,10 @@ body{
 .g-main .m-content .content-header .floor .slidplacel .slide-box .promotion .slider .sheet{
     float: left;
 }
+.g-main .m-content .content-header .floor .slidplacel .slide-box .promotion .slider .sheet .img{
+    width: 333px;
+    height: 232px;
+}
 .g-main .m-content .content-header .floor .slidplacel .slide-box .promotion .slider .sheet .title{
     width: 214px;
     margin: 15px 0 10px;
