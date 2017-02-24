@@ -60,13 +60,15 @@
 	  
    	    $('#iconfontjiao').toggle(function(){
    	    	$('#iconfontjiao').attr('class','iconfont icon-icon22');
+   	    	$('#unavbox').css('display','block');
    	    },function(){
    	    	$('#iconfontjiao').attr('class','iconfont icon-jiantouxia');
+   	    	$('#unavbox').css('display','none');
    	    });
 
    	    $('#clean').click(function(){
    	    	$('#scanbox').html('<div class="qk">暂无浏览记录</div>');
-   	    })
+   	    });
 	   		
 	})
 	    

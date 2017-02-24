@@ -7,8 +7,11 @@
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/shopcart.css">
 	<link rel="stylesheet" type="text/css" href="css/iconfont.css">
+	<link rel="stylesheet" type="text/css" href="css/iconfont2/iconfont.css">
 	<script type="text/javascript" src = "js/jquery.min.js"></script>
+	<script type="text/javascript" src='js/jquery-migrate-1.2.1.min.js'></script>
 	<script type='text/javascript' src='js/shopcart.js'></script>
+	<script type='text/javascript' src='js/leval2.js'></script>
 </head>
 <body>
     <div class='delConfirm' id='delConfirm'>
@@ -42,13 +45,13 @@
 				<ul class='u-binfo fl'>
 					<li class='keep fl'>
 						<a href=''>
-							<i></i>
+							<i class='iconfont icon-shoucang1'></i>
 							收藏美团
 						</a>
 					</li>
 					<li class='userinfo fl'>
-						<a href='' class='username'>xxxxx</a>
-						<a href='' class='quit'>退出</a>
+						<a href='' class='login'>登录</a>
+						<a href=''>注册</a>
 					</li>
 					<li class='dropdown fl'>
 						<a href=''>
@@ -189,10 +192,11 @@
 			</div>
 		</div>
 		<div class='m-lnav'>
-			<div class='u-ltnav clearfix'>
-			    <div class='fl'>
+			<div class='u-ltnav'>
+			    <div class='left'>
 					<span class='clasify'>全部分类</span>
-					<div class='u-navbox'>
+					<i class='iconfont icon-jiantouxia' id='iconfontjiao'></i>
+					<div class='u-navbox' id='unavbox'>
 						<div class='bot'>
 							<div class='u-navitem'>
 								<div class='itemintro clearfix'>
@@ -434,7 +438,6 @@
 										<li class='conitem'><a href=''>祛痘</a></li>
 										<li class='conitem'><a href=''>纹身</a></li>
 									</ul>
-
 								</div>
 							</div>
 						</div>
@@ -447,7 +450,7 @@
 						</div>
 					</div>
 				</div>
-				<div class='u-rnav fl'>
+				<div class='u-rnav'>
 					<ul class='u-linenav'>
 						<li class='nav-bar'><a href='' class='navitem'>首页</a></li>
 						<li class='nav-bar'><a href='' class='navitem'>今日新单</a></li>

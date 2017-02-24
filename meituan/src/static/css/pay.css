@@ -54,13 +54,11 @@ body{
 }
 .g-head .m-main  .icon{
 	display:block;
-	
 	width: 171px;
     height: 41px;
     margin-top: 29px;
-   
     background: url('../images/pay/icon.png');
-     background-position: -62px 0px;
+    background-position: -62px 0px;
 	background-repeat: no-repeat;
 	background-size: 315px;
 }
@@ -118,9 +116,7 @@ body{
 }
 .g-body .m-main .payment .payment-type .menu  .tab{
 	border: 2px solid transparent;
- 
 }
-
 .g-body .m-main .payment .payment-type .tips{
 	position:absolute;
 	top: 15px;
@@ -141,14 +137,11 @@ body{
 	display: block;
 }
 .g-body .m-main .payment .payment-type .paylist{
-	/*display: none;*/
-
 	margin-top: 20px;
 	border-bottom: 1px solid #ddd;
 }
 .g-body .m-main .payment .payment-type .list2{
 	display: none;
-
 }
 .g-body .m-main .payment .payment-type .paylist  ul li{
 	width: 196px;
@@ -159,7 +152,6 @@ body{
 .g-body .m-main .payment .payment-type .paylist  ul li input{
 	display: table-cell;
     vertical-align: middle;
-   /* float:left;*/
 }
 .g-body .m-main .payment .payment-type .paylist  ul li .icon{
     display: table-cell;

@@ -87,8 +87,6 @@ body{
     opacity: .2;
     visibility: visible;
 }
-
-    
 tbody{
     display: table-row-group;
     vertical-align: middle;
@@ -106,8 +104,10 @@ tr{
     font-size: 0;
     border: 3px dashed transparent;
 }
+
 .m-top{
     height: 29px;
+    line-height: 23px;
     font-size: 12px;
     border-top: 1px solid #eee;
     box-shadow: 0 0 0 1px #fff, 0 0 0 2px #ddd, 0 0 5px 3px #eee;
@@ -130,25 +130,14 @@ tr{
 .m-top .u-user .u-binfo .userinfo{
     color: #666;
 }
-.m-top .u-user .u-binfo .userinfo a{
-     color: #666;
+.m-top .u-user .u-binfo .icon-shoucang1:hover{
+    color: #f76120;
 }
 .m-top .u-user .u-binfo .userinfo a:hover{
     text-decoration: underline;
 }
-.m-top .u-user .u-binfo .userinfo .username{
-
-    color: #2bb8aa;
-}
-.m-top .u-user .u-binfo .userinfo .username:hover{
-    text-decoration: underline;
-}
-.m-top .u-user .u-binfo .userinfo .quit{
-    margin-left: 40px;
-}
-.m-top .u-user .u-binfo .userinfo .quit:hover{
-    color: #2bb8aa;
-
+.m-top .u-user .u-binfo .userinfo .login{
+    color: #f76120;
 }
 .m-top .u-user .u-binfo .dropdown{
     display: none;
@@ -333,7 +322,6 @@ tr{
 
 }
 .m-search .u-search .u-form .u-tabs .search-tabs .tab-item{
-   /* position: absolute;*/
     padding: 3px 20px 3px 10px;
     line-height: 32px;
     font-size: 14px;
@@ -362,7 +350,6 @@ tr{
     line-height: 42px;
     background:#2bb8aa;
     border: none;
-    font-size: ;
     color: #fff;
     float: left;
     cursor: pointer;
@@ -419,35 +406,48 @@ tr{
     top: -14px;
 }
 .m-lnav{
-
+    z-index: 1000;
 }
-.m-lnav .fl{
-
+.m-lnav .left{
+    position:relative;
+    
 }
 .m-lnav .u-ltnav{
+    position: relative;
     width: 980px;
     margin: 0 auto;
     height: 40px;
     background: #2bb8aa;
+    
+}
+.m-lnav .u-ltnav .left{
+    position: absolute;
+    z-index: 1000;
+    left: 0;
 } 
 .m-lnav .u-ltnav .u-navbox{
     display: none;
     height: 478px;
-    margin-top: 18px;
+    margin-top: 4px;
     width: 246px;
-    
     border-top: none;
     overflow: visible;
     background: #fafafa;
     line-height: 22px;
     font-size: 12px;
-    z-index: 1;
+    z-index: 1000;
+}
+.m-lnav .u-ltnav #iconfontjiao{
+    display: inline-block;
+    font-size: 24px;
+    color: #fff;
+    padding-right: 4px;
+    line-height: 36px;
+    cursor: pointer;
 }
 .m-lnav .u-ltnav .clasify{
-   /*display: table-cell;
-   vertical-align: middle;*/
    position: relative;
-   top: 8px;
+   top: 2px;
    padding-left: 10px;
    margin-right: 140px;
    font-size: 16px;
@@ -462,16 +462,12 @@ tr{
     background: #fff;
     border-right: 1px solid #fff;
 }
-/*.m-lnav .u-ltnav .u-navbox .bot:hover .rightnav{
-    display: block;
-}*/
 .m-lnav .u-ltnav .u-navbox .bot:hover .u-navitem .itemintro i{
     opacity: 0;
 }
 .m-lnav .u-ltnav .u-navbox .bot:hover .u-navitem{
     border-right:1px solid #fff;
 }
-
 .m-lnav .u-ltnav .u-navbox .u-navitem{
     position: relative;
     height: 44px;
@@ -513,20 +509,17 @@ tr{
     position: absolute;
     height: 477px;
     width: auto;
-    left: 246px;
+    left: 235px;
     padding: 0;
     white-space: nowrap;
     vertical-align: top;
     min-width: 150px;
     border-top: none;
     z-index: 90;
-    /*opacity: 0;*/
     display: none;
     background: #fff;
     border-right: 1px solid #eee;
     border-bottom: 1px solid #eee;
-
-    /*transition: opacity 1 ease-in .2;*/
 }
 
 .m-lnav .u-ltnav .u-navbox .u-navitem .rightnav .title{
@@ -537,15 +530,12 @@ tr{
     color: #333;
     font-size: 20px;
     line-height: 24px;
-
 } 
 .m-lnav .u-ltnav .u-navbox .u-navitem .rightnav .title a:hover{
     color: #2bb8aa;
 }
 .m-lnav .u-ltnav .u-navbox .u-navitem .fall1{
     top: 0;
-    
-
 }
 .m-lnav .u-ltnav .u-navbox .u-navitem .fall2{
     top: -52px;
@@ -593,7 +583,7 @@ tr{
     line-height: 24px;
 }
 .m-lnav .u-ltnav .u-navbox .u-navitem .rightnav .content .bribe a{
-  color: #f76120;
+    color: #f76120;
 }
 .m-lnav .u-ltnav .u-navbox .u-navitem .rightnav .content .conitem a{
     color: #666;
@@ -603,6 +593,8 @@ tr{
 }
 
 .m-lnav  .u-ltnav .u-rnav{
+    position: absolute;
+    left: 246px;
 }
 .m-lnav  .u-ltnav .u-rnav .u-linenav {
     background: #2bb8aa;

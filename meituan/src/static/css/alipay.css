@@ -48,11 +48,10 @@ body{
 }
 .g-title .m-main .tit{
 	float: left;
+	height: 20px;
     font-size: 16px;
-    font-weight: normal;
     font-family: "Microsoft YaHei",微软雅黑,"宋体";
     border-left: 1px solid #676d70;
-    height: 20px;
     margin-top: 15px;
     margin-left: 10px;
     padding-top: 10px;
@@ -60,7 +59,6 @@ body{
 }
 .g-main{
 	margin-top:10px;
-    
 }
 .g-main .m-body{
 	width: 950px;
@@ -73,7 +71,6 @@ body{
 .g-main .m-body .u-order .detail{
 	padding: 16px 23px;
 	color: #000;
-	/*border-bottom: 3px solid #b3b3b3;*/
 }
 .g-main .m-body .u-order .detail .remind .tip{
 	cursor: pointer;
@@ -84,7 +81,6 @@ body{
 	overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-   /* border-bottom: 3px solid #b3b3b3;*/
 }
 .g-main .m-body .u-order  .ordernum{
 	max-width: 400px;
@@ -118,7 +114,6 @@ body{
 }
 
 .g-main .m-body .u-order  .dialog .tit{
-
 	padding: 10px 12px 0;
 	font-weight: 700;
     color: #4D4D4D;
@@ -192,13 +187,11 @@ body{
 }
 .g-main .m-body .u-container .cash{
 	width: 803px;
-   
 }
 
 .g-main .m-body .u-container .cash .payarea{
 	width: 300px;
 	margin: 20px auto;
-	
 	text-align: center;
 }
 .g-main .m-body .u-container .cash .payarea .head{
@@ -241,9 +234,7 @@ body{
     margin-top: -21px;
 }
 .g-main .m-body .u-container .cash .payarea .imgwrap .explain{
-   
-	margin: 10px 0 6px;
-   
+	margin: 10px 0 6px;  
 }
 .g-main .m-body .u-container .cash .payarea .imgwrap .explain img{
 	margin-left: 20px;
@@ -299,13 +290,12 @@ body{
     /* width: 95px;
     height: 28px;*/
     margin: 18px auto 0;
+    padding: 10px 14px;
     border: 1px solid #0fa4db;
     background-color: #00aeef;
     border-radius: 4px;
     font-size: 12px;
     font-weight: 400;
-    padding: 10px 14px;
-
     color: #fff;
 }
     
@@ -323,7 +313,6 @@ body{
 .g-main .m-body .u-container .switch .switch-tip .iconwrap img{
 	position: absolute;
 	z-index: 11;
-	
 }
 .g-main .m-body .u-container .switch .tip1 {
 	
@@ -346,14 +335,14 @@ body{
 }
 .g-main .m-body .u-container .switch .tip2 p{
    font-size: 16px;
-    font-family: tahoma, arial;
+   font-family: tahoma, arial;
    /* color: #4d4d4d;*/
 }
 .g-main .m-body .u-container .view{
    width: 803px;
-   background: #fff;
    height: 460px;
-    border-bottom: 3px solid #b3b3b3;
+   border-bottom: 3px solid #b3b3b3;
+   background: #fff;
 }
 .g-main .m-body .u-container .view .loginbox{
     padding: 60px 0 20px 238px;
@@ -377,15 +366,15 @@ body{
 	text-decoration: underline;
 }
 .g-main .m-body .u-container .view .loginbox .subform  .tit label{
-	font-size: 14px;
 	float: left;
+	font-size: 14px;
 	color: inherit;
 }
 .g-main .m-body .u-container .view .loginbox .subform  .tit .alink{
-	font-size: 12px;
 	float: right;
-	color: rgb(21, 137, 202);
+	font-size: 12px;
 	font-weight: 400;
+	color: rgb(21, 137, 202);	
 }
 .g-main .m-body .u-container .view .loginbox .subform  .tit .alink:hover{
 	text-decoration: underline;
@@ -393,10 +382,10 @@ body{
 .g-main .m-body .u-container .view .loginbox .subform .login-panel input{
 	height: 24px;
     width: 328px;
-    font-size: 14px;
-    border: 1px solid #CCC;
     padding: 7px 10px;
     margin-top:10px;
+    font-size: 14px;
+    border: 1px solid #CCC;
 }
 .g-main .m-body .u-container .view .loginbox .subform .login-panel input:focus{
 	border-color: #07F;
@@ -439,6 +428,5 @@ body{
 }
 .g-foot .m-content  .img{
 	margin-top: 20px;
-	
 }
 
