@@ -652,8 +652,7 @@ body{
     color: #999;    
 }
 .g-main .m-content .content-header .floor .slidplacel .slide-box .promotion .slider .sheet .price{
-    font-size: 30px;
-    color: #f76120;
+    
     position: relative;
     float: right;
     width: 108px;
@@ -664,16 +663,18 @@ body{
     line-height: 70px;
     text-align: right;
     font-weight: 400;
+    font-size: 30px;
+    color: #f76120;
 }
     
 .g-main .m-content .content-header .floor .slidplacel .slide-box .promotion .slider .sheet .left{
-    float: left;
     position: relative;
+    float: left;
     width: 333px;
     padding-right: 11px;
     border-right: 1px solid #eee;
     padding-top: 10px;
-    position: relative;
+    
 }
 .g-main .m-content .content-header .floor .slidplacel .slide-box .promotion .slider .sheet .discount{
     position: absolute;
@@ -720,15 +721,13 @@ body{
     background: rgba(0,0,0,.3);
 }
 .g-main .m-content .content-header .floor .slidplacel .slide-box .promotion .pre-next .arrow:hover{
-      background: rgba(0,0,0,.5);
+    background: rgba(0,0,0,.5);
 }
 .g-main .m-content .content-header .floor .slidplacel .slide-box .promotion .pre-next #previous{
     width: 30px;
     left: 0;
-    
 }
 .g-main .m-content .content-header .floor .slidplacel .slide-box .promotion .pre-next #next{
-    
     width: 60px;
     right: 0;
 
@@ -777,14 +776,12 @@ body{
 	width: 197px;
 	height: 158px;
 }
-.g-main .m-content .content-body{
 
-}
 .g-main .m-content .content-body .famous{
 }
 .g-main .m-content .content-body .category-list .category-floor .floor-title{
-	    margin-bottom: 12px;
-        padding-top: 20px;
+	margin-bottom: 12px;
+    padding-top: 20px;
 }
 .g-main .m-content .content-body .category-list .category-floor .floor-title .categories{
 	height: 30px;
@@ -793,13 +790,11 @@ body{
 }
 .g-main .m-content .content-body .category-list .category-floor .floor-title .categories .cateitem{
 	display: inline-block;
-    
 }
 .g-main .m-content .content-body .category-list .category-floor .floor-title .categories .cateitem a:hover{
     color: #2bb8aa;
 }
 .g-main .m-content .content-body .category-list .category-floor .floor-title .ltit{
-	
 	height: 30px;
 	line-height: 30px;
     font-size: 20px;
@@ -855,7 +850,6 @@ body{
     display: inline-block;
     position: absolute;
     top: 6px;
-    
     z-index: 9;
 }
 .g-main .m-content .content-body .category-list .category-floor .floor-body .itemlist .item .imgbox .link .mark .mark-item{
@@ -935,7 +929,6 @@ body{
     padding: 0;
     height: 45px;
     background: #fff;
-
 }
  .g-main .m-content .content-body .category-list .category-floor .floor-body .itemlist .item .extrainfo p a{
  	height: 33px;
@@ -956,13 +949,11 @@ body{
 	width: 90%;
     height: 12px;
     line-height: 12px;
-    background-image: url();
     background-repeat: repeat-x;
     overflow: hidden;
     vertical-align: top;
 }
 .g-main .m-content .content-body .category-list .category-floor .floor-body .itemlist .item .extrainfo p a .rate-count{
-
     color: #999;
     font-family: arial,sans-serif;
 }
@@ -1187,7 +1178,7 @@ body{
 }
 .g-foot .u-certimg .imglist li .wq{
 	background: url('../images/wq.png');
-	  width: 111px;
+	width: 111px;
 }
 .u-gotop{
     position: fixed;

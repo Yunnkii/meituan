@@ -373,6 +373,9 @@ body{
     font-size: 14px;
     color: rgb(21, 137, 202);
 }
+.g-main .m-body .u-container .view .loginbox .login-tit .rightarea a:hover{
+	text-decoration: underline;
+}
 .g-main .m-body .u-container .view .loginbox .subform  .tit label{
 	font-size: 14px;
 	float: left;
@@ -383,6 +386,9 @@ body{
 	float: right;
 	color: rgb(21, 137, 202);
 	font-weight: 400;
+}
+.g-main .m-body .u-container .view .loginbox .subform  .tit .alink:hover{
+	text-decoration: underline;
 }
 .g-main .m-body .u-container .view .loginbox .subform .login-panel input{
 	height: 24px;
