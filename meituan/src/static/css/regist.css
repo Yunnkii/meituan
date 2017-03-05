@@ -82,9 +82,15 @@ body{
     vertical-align: top;
 }
 .g-main .m-signUp  form .u-mobile .tipstatus{
-
+	
 }
-
+.g-main .m-signUp  form .u-mobile .derictlogin{
+	padding-left: 10px;
+	color: #2bb8aa;
+}
+.g-main .m-signUp  form .u-mobile .derictlogin:hover{
+	text-decoration: underline;
+}
 .g-main .m-signUp  form .u-mobile .native{
 	margin-left: 4px;
     padding: 6px 0;
@@ -101,6 +107,49 @@ body{
     font-size: 12px;
     color: #999;
     vertical-align: top;
+}
+
+.g-main .m-signUp  form  .pwstrengthbox{
+	display: block;
+	position: absolute;
+    width: 258px;
+    /*height: 20px;*/
+    top: 50px;
+    left: 110px;
+    background: #eee;
+}
+.g-main .m-signUp  form  .pwstrengthbox .length{
+	/*position: absolute;*/
+	/*left: 0;
+	top: 0;*/
+}
+.g-main .m-signUp  form  .pwstrengthbox .length .primary{
+	background: #eee;
+}
+
+.g-main .m-signUp  form  .pwstrengthbox .length .weak{
+	background: #f76120;
+}
+.g-main .m-signUp  form  .pwstrengthbox .length .medium{
+	background: #ff8900;
+}
+.g-main .m-signUp  form  .pwstrengthbox .length .tough{
+	background: #5bab3c;
+}
+.g-main .m-signUp  form  .pwstrengthbox  .pwstrength{
+	display: block;
+    float: left;
+    text-align: center;
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+    width: 84px;
+    background: #eee;
+    border-right: 2px solid #fff;
+    color: #fff;
+}
+.g-main .m-signUp  form .u-pwd2{
+	margin-top: 20px;
 }
 .g-main .m-signUp  .u-vbtn{
 	display: none;

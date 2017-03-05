@@ -1,0 +1,364 @@
+body{
+	font-family: STHeiti,YaHei,Helvetica,Tahoma,sans-serif;
+	height: 100%;
+	/*overflow-y:visible;*/
+}
+body::-webkit-scrollbar {
+    width: 0px;
+}
+
+.g-head{
+	width: 100%;
+	position: fixed;
+	padding: 13px 0;
+	padding-left: 30px;
+	height: 44px;
+	background-color: #fff7e4;
+	box-shadow: 1px 1px 3px rgba(0,0,0,.1);
+	min-width: 960px;
+	opacity: .7;
+	z-index: 1001;
+}
+.g-head .u-logo{
+	display: inline-block;
+}
+.g-head  .menu {
+	position: absolute;
+    right: 10px;
+    top: 0;
+	line-height: 70px;
+    vertical-align: middle;
+    width: 560px;
+    font-size: 16px;
+    padding-right: 31px;
+    
+}
+.g-head  .menu .menulist li{
+	display: inline-block;
+	padding-left: 40px;
+
+}
+.g-head  .menu .menulist li a{
+	color: #333;
+}
+.g-head  .menu .menulist li a:hover{
+	color: #41cba9;
+}
+.nav{
+	z-index: 2000;
+    position: fixed;
+    top: 50%;
+    right: 16px;
+    margin-top: -40px;
+}
+.nav ul li{
+	position: relative;
+	width: 26px;
+	height: 26px;
+}
+.nav ul li a{
+	display: block;
+	width: 20px;
+	height: 20px;
+	background-image: url('../images/mobile/nav-c.png');
+	background-repeat: no-repeat;
+	transition: background  1.5s ease;
+}
+.nav ul li .active{
+	background-image: url('../images/mobile/nav-o.png');
+}
+.contain{
+	position: relative;
+}
+.contain .widcon{
+	position: absolute;
+	width: 100%;
+	height: 400%;
+}
+.page{
+	width: 100%;
+	height: 768px;
+}
+.page-1{
+	background-color: #feda89;
+    z-index: 10;
+}
+.page-2{
+	background-color: #de4f50;
+    z-index: 15;
+}
+.page-3{
+	background-color: #904a68;
+    z-index: 20;
+}
+.page-4{
+	background-color: #68c39f;
+    z-index: 25;
+}
+.page .content{
+	position: relative;
+	width: 960px;
+	margin: 0 auto;
+	
+}
+.page-1 .content .phone-wrap{
+	position: absolute;
+	width: 449px;
+    height: 531px;
+    top: 68px;
+    left: 70px;
+   
+	
+}
+.page-1 .content .phone-wrap .leftphone{
+	position: relative;
+	top: 0px;
+	left: 70px;
+}
+.page-1 .content .phone-wrap .leftphone .phone{
+	position: absolute;
+	width: 271px;
+    height: 505px;
+    background-image: url("../images/mobile/page1/ph1.png");
+    background-repeat: no-repeat;
+    z-index: 3;
+}
+.page-1 .content .phone-wrap .leftphone .circle{
+	position: absolute;
+	width: 347px;
+    height: 190px;
+    left: -45px;
+    top: 215px;
+	background-image: url("../images/mobile/page1/cl.png");
+	background-repeat: no-repeat;
+	z-index: 4;
+}
+.page-1 .content .phone-wrap .leftphone #wheel-1{
+	position: absolute;
+	width: 172px;
+	height: 172px;
+	top: 126px;
+	left: -95px;
+	background-image: url("../images/mobile/page1/wheel-1.png");
+	background-repeat: no-repeat;
+	z-index: 1;
+
+}
+.page-1 .content .phone-wrap .leftphone #wheel-2{
+	position: absolute;
+	width: 66px;
+	height: 66px;
+	top: 111px;
+	left: 283px;
+	background-image: url("../images/mobile/page1/wheel-2.png");
+	background-repeat: no-repeat;
+	z-index: 1;
+}
+.page-1 .content .phone-wrap .leftphone #wheel-3{
+	position: absolute;
+	width: 97px;
+	height: 97px;
+	top: 382px;
+	left: 235px;
+	background-image: url("../images/mobile/page1/wheel-3.png");
+	background-repeat: no-repeat;
+	z-index: 2;
+}
+.page-1 .content .phone-wrap .leftphone #wheel-4{
+	position: absolute;
+	width: 75px;
+	height: 75px;
+	top: 452px;
+    left: 235px;
+	background-image: url("../images/mobile/page1/wheel-4.png");
+	background-repeat: no-repeat;
+	z-index: 1;
+}
+.page-1 .content .fix{
+	position: fixed;
+	width: 300px;
+	top: 139px;
+	right: 193px;
+	
+}
+.page-1 .content  .fix .topbox{
+	position: relative;
+	top: 0px;
+	
+}
+.page-1 .content .fix .topbox .description{
+	width: 300px;
+	height: 57px;
+	background: url("../images/mobile/text.png");
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	transition: background-position  1.5s ;
+	z-index: 11;
+}
+.page-1 .content .fix .topbox .qrwrap{
+	width: 300px;
+	height: 300px;
+	background-image: url("../images/mobile/qrbg.png");
+	background-repeat: no-repeat;
+	background-position: left bottom;
+}
+.page-1 .content .fix .topbox .qrwrap .qr{
+	position: absolute;
+	width: 120px;
+	height: 120px;
+	left: 52px;
+	top: 98px;
+	background-image: url("../images/mobile/page1/qrcode.png");
+	background-repeat: no-repeat;
+}
+.page-1 .content .fix .topbox .qrwrap .btnbox{
+	position: absolute;
+	left: 31px;
+	bottom: 23px;
+}
+.page-1 .content .fix .topbox .qrwrap .btnbox .abtn{
+	display: block;
+	width: 166px;
+	height: 48px;
+	background-image: url("../images/mobile/page1/download.png");
+	background-repeat: no-repeat;
+}
+.page-1 .content .fix .topbox .qrwrap .btnbox .abtn:hover{
+	background-image: url("../images/mobile/page1/download-hover.png");
+}
+.page-2 .content .mapwrap{
+	position: absolute;
+	width: 100%;
+	left: 70px;
+	top: 68px;
+	z-index: 16;
+	
+}
+.page-2 .content .mapwrap .leftmap{
+	position: relative;
+	top: 0px;
+	height: 50px;
+	
+}
+.page-2 .content .mapwrap .leftmap #map{
+	position: absolute;
+	width: 412px;
+	height: 259px;
+	left: 0px;
+	top: 270px;
+	background-image: url("../images/mobile/page2/map.png");
+	background-repeat: no-repeat;
+}
+.page-2 .content .mapwrap .leftmap #cloud{
+	position: absolute;
+	width: 586px;
+	height: 156px;
+	left: -69px;
+	top: 30px;
+	background-image: url("../images/mobile/page2/cloud.png");
+	background-repeat:  no-repeat;
+}
+.page-2 .content .mapwrap .leftmap #nail{
+	position: absolute;
+	width: 160px;
+	height: 193px;
+	left: 149px;
+	top: 201px;
+	background-image: url("../images/mobile/page2/nail.png");
+	background-repeat:  no-repeat;
+}
+.page-3 .shopwrap{
+	position: absolute;
+	width: 100%;
+	top: 50px;
+	left: 70px;
+	z-index: 21;
+}
+.page-3 .shopwrap .leftshop{
+	position: relative;
+	top: 0px;
+
+}
+.page-3 .shopwrap .leftshop #vphone{
+	position: absolute;
+	left: 20px;
+	top: 400px;
+	width: 559px;
+	height: 116px;
+	background-image: url("../images/mobile/page3/v-phone.png");
+	background-repeat: no-repeat;
+}
+.page-3 .shopwrap .leftshop #function{
+	position: absolute;
+	top: 20px;
+	left: 124px;
+	width: 304px;
+	height: 138px;
+	background-image: url("../images/mobile/page3/fun.png");
+	background-repeat: no-repeat;
+}
+.page-3 .shopwrap .leftshop #shop{
+	position: absolute;
+	top: 155px;
+	left: 124px;
+	width: 344px;
+	height: 284px;
+	background-image: url("../images/mobile/page3/shop.png");
+	background-repeat: no-repeat;
+}
+.page-4 .giftwrap{
+	position: absolute;
+	left: 70px;
+	top: 30px;
+}
+.page-4 .giftwrap .leftgift{
+	position: relative;
+	width: 100%;
+	left: 0px;
+}
+.page-4 .giftwrap .leftgift #gift1{
+	position: absolute;
+	left: 10px;
+	top: 300px;
+	width: 117px;
+	height: 185px;
+	background-image: url("../images/mobile/page4/gift1.png");
+    background-repeat: no-repeat;
+}
+.page-4 .giftwrap .leftgift #gift2{
+	position: absolute;
+	left: 377px;
+    top: 359px;
+	width: 103px;
+	height: 126px;
+	background-image: url("../images/mobile/page4/gift2.png");
+	background-repeat: no-repeat;
+}
+.page-4 .giftwrap .leftgift #ballon{
+	position: absolute;
+	top: -9px;
+	left: 96px;
+	width: 229px;
+	height: 445px;
+	background-image: url("../images/mobile/page4/ballon.png");
+	background-repeat: no-repeat;
+	z-index: 4;
+}
+.page-4 .giftwrap .leftgift #phone1{
+	position: absolute;
+	top: 50px;
+	left: 150px;
+	width: 220px;
+	height: 105px;
+	background-image: url("../images/mobile/page4/phone1.png");
+	background-repeat: no-repeat;
+}
+.page-4 .giftwrap .leftgift #phone2{
+ 	position: absolute;
+ 	left: 150px;
+    top: 212px;
+ 	width: 200px;
+ 	height: 277px;
+ 	background-image: url("../images/mobile/page4/phone2.png");
+ 	background-repeat: no-repeat;
+ }

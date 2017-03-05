@@ -48,6 +48,20 @@ body{
     border-radius: 2px;
     background: #fff6db;
     font-size: 12px;
+   
+}
+.g-main .m-login .u-remind .tip-status{
+	display: inline-block;
+    width: 17px;
+    height: 17px;
+    overflow: hidden;
+	background-image: url('../images/icon.png');
+	background-repeat: no-repeat;
+	background-position: 0 -296px;
+}
+.g-main .m-login .u-remind .text{
+	padding-left: 25px;
+	color: #666;
 }
 .g-main .m-login .u-title span{
 	color:#666;
@@ -154,40 +168,39 @@ body{
 .g-main .m-login .u-verify a:hover{
 	text-decoration: underline;
 }
+
+.g-main .m-login .u-vernum{
+	display: none;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	text-align: right;
+	padding-top: 6px;
+	
+}
 .g-main .m-login  .u-vernum .verbtn{
+	width: 123px;
 	padding: 1px 8px 0;
 	font-family: inherit;
     font-size: 12px;
-    color: #333;
-    background-color: #dedede;
-    border: 1px solid #e3e3e3;
-    border-bottom: 1px solid #aaa;
-    background-repeat: repeat-x;
-    border-radius: 2px;
+    background: none;
+    border: none;
+    color: #666;
     font-weight: 200;
     outline: none;
+   
 }
-.g-main .m-login  .u-vernum .getinfo{
-	visibility: hidden;
-}
-.g-main .m-login  .u-vernum span{
-	font-size: 12px;
-	color: #666;
-}
-.g-main .m-login  .u-vernum .verbtn:active{
-	background-image: linear-gradient(to bottom,#ddd,#eee);
-}
-.g-main .m-login .u-vernum{
+.g-main .m-login .tipinfo{
 	display: none;
-	padding-top: 6px;
+	padding: 4px 0px 2px 8px;
+	font-size: 12px;
+	color: #f76120;
+	text-align: left;
 }
 .g-main .m-login .u-autologin{
 	display: inline-block;
 	width:100%;
-	margin-top: 10px;
-}
-.g-main .m-login .u-autologin.checkice{
-
+	margin-top: 2px;
 }
 .g-main .m-login .u-autologin .check{
 	padding-left: 2px;
@@ -230,12 +243,27 @@ body{
 	text-decoration: none;
 }
 .g-main .m-login .u-wrap{
+	position: relative;
+	margin-top: 20px;
 	color: #666;
 }
 .g-main .m-login .u-wrap .coopreat{
-
+	text-align: center;
 }
-.g-main .m-login .u-wrap .coopreat::after,.g-main .m-login .u-wrap .coopreat::before{
+.g-main .m-login .u-wrap .coopreat::after{
+	position: absolute;
+	top: -9px;
+	right: -3px;
+	content: '________';
+	display: inline-block;
+	vertical-align: middle;
+	padding: 3px;
+	color: #ccc;
+}
+.g-main .m-login .u-wrap .coopreat::before{
+	position: absolute;
+	top: -9px;
+	left: -4px;
 	content: '________';
 	display: inline-block;
 	vertical-align: middle;

@@ -24,15 +24,16 @@
 		<div class="m-signUp">
 			<form action='' method=''>
 				<div class='form-field u-mobile'>
-					<label>手机号</label>
+					<label> 手机号</label>
 					<input type='text' class='f-text' id='phone'>
-					<span class='native'>注册成功后，全美团通用</span>
+					<span class='native' id='native'>注册成功后，全美团通用</span>
 					<span class='inline-tip'><i class='tipstatus'></i>请输入您的手机号</span>
+					
 				</div>
 				<div class='form-field u-vbtn'>
 					<!-- <label>图片验证码</label> -->
 				
-						<input type='text' class='f-text pic'>
+						<input type='text' class='f-text pic' id='pic'>
 						<img  src='' class='verimg'>
 						<a href='' class='inline-link'>看不清楚？换一张</a>
 						<span class='inline-tip'><i class='tipstatus'></i>请输入验证码</span>
@@ -44,21 +45,26 @@
 				</div>
 				<div class='form-field u-sms'>
 					<label>短信动态码</label>
-					<input type='text' class='messver f-text'>
+					<input type='text' class='messver f-text' id='messver'>
 					<span class='inline-tip'>
 						<i class='tipstatus'></i>请输入短信动态码
 					</span>
 				</div>
 				<div class='form-field u-pwd'>
-					<div class='pwstrength'>
-						<div></div>
-						<div></div>
+					<div class='pwstrengthbox' id='pwstrengthbox'>
+					    <div class='length clearfix'>
+							<span class='pwstrength' id='weak'>弱</span>
+							<span class='pwstrength' id='medium'>中</span>
+							<span class='pwstrength' id='advance'>强</span>
+						</div>
+					    
 					</div>
 					<label>创建密码</label>
 					<input type='password' class='f-text' id='creapass'>
 					<span class='inline-tip'>
 						<i class='tipstatus'></i>请填写密码
 					</span>
+					
 				</div>
 				<div class='form-field u-pwd2'>
 					<label>确认密码</label>
@@ -68,8 +74,7 @@
 					</span>
 				</div>
 				<div class='form-field u-agre'>
-					<input type='submit' class='btn' value='同意以下协议并注册'>
-					<a></a>
+					<input type='submit' class='btn' value='同意以下协议并注册' id='agreebtn'>
 				</div>
 				<input type='hidden'>
 			</form>

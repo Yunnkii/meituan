@@ -21,6 +21,7 @@ window.onload = function(){
     			paylist[this.index].style.display = 'block';
     		}
         }
+        
 }
 	
     
